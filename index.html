@@ -119,10 +119,10 @@
             </div>
         </div>
    
-        <button onclick="downloadCV()">Télécharger le CV</button>
+        <button onclick="downloadCV()">Télécharger le Tableau de synthèse</button>
         <!-- Bouton pour visualiser le CV -->
         <button onclick="viewCV()">Visualiser le CV</button>
-        <button onclick="viewTableau()">Tableau de synthèse</button>
+        
     
         <!-- Cadre pour visualiser le CV -->
         <iframe id="cvViewer" src="" width="600" height="800" style="display:none; border:1px solid rgb(255, 26, 26);"></iframe>
@@ -130,19 +130,14 @@
         <script>
             function downloadCV() {
                 const link = document.createElement('a');
-                link.href = 'CV Hassani Ayoub.pdf'; // Remplacez par le chemin vers votre CV
-                link.download = 'CV Hassani Ayoub.pdf'; // Nom du fichier téléchargé
+                link.href = 'BTS SIO - 2025 - Epreuve E5 - Tableau de synthese Ayoub Hassani.xlsx'; // Remplacez par le chemin vers votre CV
+                link.download = 'BTS SIO - 2025 - Epreuve E5 - Tableau de synthese Ayoub Hassani.xlsx'; // Nom du fichier téléchargé
                 link.click();
             }
     
             function viewCV() {
                 const iframe = document.getElementById('cvViewer');
                 iframe.src = 'CV Hassani Ayoub.pdf'; // Remplacez par le chemin vers votre CV
-                iframe.style.display = 'block';
-            }
-            function viewTableau() {
-                const iframe = document.getElementById('TableauViewer');
-                iframe.src = 'BTS SIO - 2025 - Epreuve E5 - Tableau de synthese Ayoub Hassani.xlsx'; // Remplacez par le chemin vers votre CV
                 iframe.style.display = 'block';
             }
         </script>
@@ -152,6 +147,8 @@
         <div class="container">
             <div class="col-lg-8 mx-auto" data-aos="fade" data-aos-once="true"><div class="Formation">
 
+        <p><span class="green">Septembre 2025 ›</span> <span class="blodBlue"> Ingénieur·e informatique ›</span> <a href="https://www.cesi.fr/formation/ingenieur-e-informatique-cursus-en-3-ans-par-lapprentissage-2513617/"> CESI Nanterre</a></p>
+       
         <p><span class="green">Septembre 2024 ›</span> <span class="blodBlue"> BTS SIO ›</span> <a href="https://www.lgsh.fr/formations/sts/sio/"> Lycée Geoffroy Saint-Hilaire</a></p>
          <p> ➙ Spécialité : SLAM</p>
         <p><span class="green">Novembre 2023 ›</span> <span class="blodBlue"> BTS SIO ›</span><a href="https://ecole-ipssi.com/formations-informatique/bts-informatique-sio-sisr-slam/"> Ipssi Paris</a></p>
@@ -187,10 +184,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p style="margin-bottom: 5px;margin-top: 10px;">C++ / C</p>
-                    <div class="progress">
-                        <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="sr-only">80%</span></div>
-                    </div>
+                    
                     <p style="margin-bottom: 5px;margin-top: 10px;">Java / Python</p>
                     <div class="progress" style="filter: contrast(132%) saturate(135%);">
                         <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60%</span></div>
